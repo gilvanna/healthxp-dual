@@ -1,0 +1,33 @@
+{
+  "admin": {
+    "name": "Admin",
+    "email": "admin@healthxp.com",
+    "password": "xperience"
+  },
+  "inv_pass": {
+    "email": "admin@healthxp.com",
+    "password": "123456"
+  }, 
+  "email_not_found": {
+    "email": "404@email.com",
+    "password": "123456"
+  }, 
+  "inv_emails": [
+    {"email": "admin&healthxp.com", "password": "123456"},
+    {"email": "www.test.com", "password": "123456"},
+    {"email": "123456789", "password": "123456"},
+    {"email": "ashashasha", "password": "123456"},
+    {"email": "ashsahs8965asha", "password": "123456"},
+    {"email": "&^*&^*&^*", "password": "123456"},
+    {"email": "admin*test.com", "password": "123456"},
+    {"email": "    @test.com", "password": "123456"}
+  ], 
+  "empty_email": {
+    "email": "",
+    "password": "123456"
+  },
+  "empty_password": {
+    "email": "admin@healthxp.com",
+    "password": ""
+  }
+}
