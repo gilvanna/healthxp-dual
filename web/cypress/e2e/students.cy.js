@@ -44,7 +44,7 @@ describe('students', ()=> {
 
     })
 
-    it.only('todos os campos são obrigatórios', ()=> {
+    it('todos os campos são obrigatórios', ()=> {
 
         const student = students.required
 
